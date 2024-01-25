@@ -1,0 +1,403 @@
+{
+  "perguntas": [
+    {
+      "pergunta": "O que o código abaixo imprimirá no console?",
+      "codigo": "console.log(2 + '2' == '2' + 2);",
+      "opcoes": [
+        {
+          "resposta": "true",
+          "correta": false
+        },
+        {
+          "resposta": "false",
+          "correta": true
+        },
+        {
+          "resposta": "2 + 2",
+          "correta": false
+        },
+        {
+          "resposta": "'22'",
+          "correta": false
+        }
+      ]
+    },
+    {
+      "pergunta": "Qual é a saída do seguinte código?",
+      "codigo": "console.log(typeof typeof 1);",
+      "opcoes": [
+        {
+          "resposta": "number",
+          "correta": false
+        },
+        {
+          "resposta": "string",
+          "correta": true
+        },
+        {
+          "resposta": "undefined",
+          "correta": false
+        },
+        {
+          "resposta": "object",
+          "correta": false
+        }
+      ]
+    },
+
+    {
+      "pergunta": "Qual será o resultado do código abaixo?",
+      "codigo": "const a = [1, 2, 3]; const b = [...a, 4, 5]; console.log(b);",
+      "opcoes": [
+        {
+          "resposta": "[1, 2, 3, 4, 5]",
+          "correta": true
+        },
+        {
+          "resposta": "[1, 2, 3, [4, 5]]",
+          "correta": false
+        },
+        {
+          "resposta": "[1, 2, 3, ...[4, 5]]",
+          "correta": false
+        },
+        {
+          "resposta": "[1, 2, 3, 4, 5,]",
+          "correta": false
+        }
+      ]
+    },
+    {
+      "pergunta": "O que a função abaixo faz?",
+      "codigo": "const debounce = (fn, delay) => { let timeoutId; return (...args) => { clearTimeout(timeoutId); timeoutId = setTimeout(() => { fn(...args); }, delay); }; };",
+      "opcoes": [
+        {
+          "resposta": "Calcula a média de um conjunto de números.",
+          "correta": false
+        },
+        {
+          "resposta": "Remove elementos duplicados de um array.",
+          "correta": false
+        },
+        {
+          "resposta": "Adia a execução de uma função até que o tempo de espera tenha passado, reiniciando o temporizador a cada chamada.",
+          "correta": true
+        },
+        {
+          "resposta": "Ordena um array em ordem decrescente.",
+          "correta": false
+        }
+      ]
+    },
+    {
+      "pergunta": "O que o código abaixo imprimirá no console?",
+      "codigo": "const x = 10; function foo() { console.log(x); } function bar() { const x = 20; foo(); } bar();",
+      "opcoes": [
+        {
+          "resposta": "10",
+          "correta": true
+        },
+        {
+          "resposta": "20",
+          "correta": false
+        },
+        {
+          "resposta": "undefined",
+          "correta": false
+        },
+        {
+          "resposta": "Erro de Tempo de Execução",
+          "correta": false
+        }
+      ]
+    },
+    {
+      "pergunta": "O que é uma 'Promise' em JavaScript?",
+      "codigo": "",
+      "opcoes": [
+        {
+          "resposta": "Uma declaração de variável que não pode ser modificada.",
+          "correta": false
+        },
+        {
+          "resposta": "Um objeto que representa um valor que pode estar disponível agora, no futuro ou nunca.",
+          "correta": true
+        },
+        {
+          "resposta": "Uma estrutura de controle de fluxo que permite repetir uma parte do código várias vezes.",
+          "correta": false
+        },
+        {
+          "resposta": "Um método para lidar com exceções em JavaScript.",
+          "correta": false
+        }
+      ]
+    },
+    {
+      "pergunta": "O que o código abaixo faz?",
+      "codigo": "const x = { a: 1, b: 2, c: 3 }; const { a, ...rest } = x; console.log(rest);",
+      "opcoes": [
+        {
+          "resposta": "{ a: 1 }",
+          "correta": false
+        },
+        {
+          "resposta": "{ b: 2, c: 3 }",
+          "correta": true
+        },
+        {
+          "resposta": "{ a: 1, b: 2, c: 3 }",
+          "correta": false
+        },
+        {
+          "resposta": "{ ...rest: b: 2, c: 3 }",
+          "correta": false
+        }
+      ]
+    },
+    {
+      "pergunta": "O que é o 'this' em JavaScript?",
+      "codigo": "",
+      "opcoes": [
+        {
+          "resposta": "Uma palavra-chave usada para declarar variáveis.",
+          "correta": false
+        },
+        {
+          "resposta": "Um objeto que representa o contexto no qual a função está sendo chamada.",
+          "correta": true
+        },
+        {
+          "resposta": "Um operador de comparação estrita.",
+          "correta": false
+        },
+        {
+          "resposta": "Um método para criar cópias de objetos.",
+          "correta": false
+        }
+      ]
+    },
+    {
+      "pergunta": "O que é o 'Map' em JavaScript?",
+      "codigo": "",
+      "opcoes": [
+        {
+          "resposta": "Uma estrutura de controle de fluxo que permite repetir uma parte do código várias vezes.",
+          "correta": false
+        },
+        {
+          "resposta": "Uma coleção de elementos onde cada elemento é um par chave-valor.",
+          "correta": true
+        },
+        {
+          "resposta": "Um método para lidar com exceções em JavaScript.",
+          "correta": false
+        },
+        {
+          "resposta": "Um objeto que representa um valor que pode estar disponível agora, no futuro ou nunca.",
+          "correta": false
+        }
+      ]
+    },
+    {
+      "pergunta": "O que é 'Object Destructuring' em JavaScript?",
+      "codigo": "",
+      "opcoes": [
+        {
+          "resposta": "Uma técnica para evitar a repetição de código no desenvolvimento.",
+          "correta": false
+        },
+        {
+          "resposta": "Uma funcionalidade que permite desmembrar um objeto em variáveis individuais.",
+          "correta": true
+        },
+        {
+          "resposta": "Um padrão de projeto para criar instâncias de objetos.",
+          "correta": false
+        },
+        {
+          "resposta": "A utilização de funções de ordem superior para reduzir a complexidade do código.",
+          "correta": false
+        }
+      ]
+    },
+    {
+      "pergunta": "O que o código abaixo faz?",
+      "codigo": "const x = [1, 2, 3]; const y = [...x, 4, 5]; console.log(y);",
+      "opcoes": [
+        {
+          "resposta": "[1, 2, 3, 4, 5]",
+          "correta": true
+        },
+        {
+          "resposta": "[1, 2, 3, [4, 5]]",
+          "correta": false
+        },
+        {
+          "resposta": "[1, 2, 3, ...[4, 5]]",
+          "correta": false
+        },
+        {
+          "resposta": "[1, 2, 3, 4, 5,]",
+          "correta": false
+        }
+      ]
+    },
+
+
+    {
+      "pergunta": "O que faz a função abaixo?",
+      "codigo": "const fibonacci = n => n <= 1 ? n : fibonacci(n - 1) + fibonacci(n - 2);",
+      "opcoes": [
+        {
+          "resposta": "Calcula a soma dos números pares na sequência de Fibonacci até n.",
+          "correta": false
+        },
+        {
+          "resposta": "Retorna o n-ésimo número na sequência de Fibonacci.",
+          "correta": true
+        },
+        {
+          "resposta": "Inverte a sequência de Fibonacci até o n-ésimo termo.",
+          "correta": false
+        },
+        {
+          "resposta": "Remove os números ímpares da sequência de Fibonacci até n.",
+          "correta": false
+        }
+      ]
+    },
+    {
+      "pergunta": "O que é 'hoisting' em JavaScript?",
+      "codigo": "",
+      "opcoes": [
+        {
+          "resposta": "Um erro de tempo de execução.",
+          "correta": false
+        },
+        {
+          "resposta": "Uma técnica para elevar o desempenho de funções assíncronas.",
+          "correta": false
+        },
+        {
+          "resposta": "O comportamento onde declarações de variáveis e funções são movidas para o topo de seus escopos durante a fase de compilação.",
+          "correta": true
+        },
+        {
+          "resposta": "Um método para lidar com exceções em JavaScript.",
+          "correta": false
+        }
+      ]
+    },
+    {
+      "pergunta": "O que o código abaixo faz?",
+      "codigo": "const numeros = [1, 2, 3, 4, 5]; const resultado = numeros.reduce((soma, numero) => soma + numero, 0);",
+      "opcoes": [
+        {
+          "resposta": "Calcula a média dos números no array.",
+          "correta": false
+        },
+        {
+          "resposta": "Calcula a soma dos quadrados dos números no array.",
+          "correta": false
+        },
+        {
+          "resposta": "Calcula a soma de todos os números no array.",
+          "correta": true
+        },
+        {
+          "resposta": "Inverte a ordem dos números no array.",
+          "correta": false
+        }
+      ]
+    },
+    {
+      "pergunta": "O que o operador 'spread' faz em JavaScript?",
+      "codigo": "",
+      "opcoes": [
+        {
+          "resposta": "Converte uma string em um array.",
+          "correta": false
+        },
+        {
+          "resposta": "Permite a expansão de elementos iteráveis (como arrays ou strings) em lugares onde múltiplos elementos são esperados.",
+          "correta": true
+        },
+        {
+          "resposta": "Concatena dois arrays.",
+          "correta": false
+        },
+        {
+          "resposta": "Inverte a ordem dos elementos em um array.",
+          "correta": false
+        }
+      ]
+    },
+    {
+      "pergunta": "Qual é o propósito da função 'Promise.race()' em JavaScript?",
+      "codigo": "",
+      "opcoes": [
+        {
+          "resposta": "Executa todas as promessas simultaneamente e retorna a primeira que for resolvida ou rejeitada.",
+          "correta": true
+        },
+        {
+          "resposta": "Aguarda até que todas as promessas sejam resolvidas e retorna uma única promessa contendo os resultados.",
+          "correta": false
+        },
+        {
+          "resposta": "Executa todas as promessas sequencialmente, em ordem.",
+          "correta": false
+        },
+        {
+          "resposta": "Retorna uma promessa que é resolvida somente se todas as promessas fornecidas forem rejeitadas.",
+          "correta": false
+        }
+      ]
+    },
+    {
+      "pergunta": "O que é uma IIFE (Immediately Invoked Function Expression)?",
+      "codigo": "",
+      "opcoes": [
+        {
+          "resposta": "Uma função que é invocada automaticamente quando declarada.",
+          "correta": true
+        },
+        {
+          "resposta": "Uma função que só pode ser invocada uma vez por execução do programa.",
+          "correta": false
+        },
+        {
+          "resposta": "Uma função que só é invocada quando explicitamente chamada pelo código.",
+          "correta": false
+        },
+        {
+          "resposta": "Uma função que espera ser invocada por outra função antes de executar.",
+          "correta": false
+        }
+      ]
+    },
+    {
+      "pergunta": "O que é 'currying' em JavaScript?",
+      "codigo": "",
+      "opcoes": [
+        {
+          "resposta": "Uma técnica para evitar a repetição de código no desenvolvimento.",
+          "correta": false
+        },
+        {
+          "resposta": "Um padrão de projeto para criar instâncias de objetos.",
+          "correta": false
+        },
+        {
+          "resposta": "A transformação de uma função com múltiplos argumentos em uma sequência de funções que aceitam apenas um argumento.",
+          "correta": true
+        },
+        {
+          "resposta": "A utilização de funções de ordem superior para reduzir a complexidade do código.",
+          "correta": false
+        }
+      ]
+    }
+  ]
+}
